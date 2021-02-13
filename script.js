@@ -11,13 +11,19 @@ function Display() {
 }
 
 // Add methods to display prototype
+let countBooks=0;
 Display.prototype.add = function (book) {
     console.log("Adding to UI");
     tableBody = document.getElementById('tableBody');
-    let uiString = `<tr>
+    countBooks=countBooks+1;
+    let uiString = `<tr id="${countBooks}">
                         <td>${book.name}</td>
                         <td>${book.author}</td>
                         <td>${book.type}</td>
+                        <td><button class="btn btn-success" id="edit" onclick="editfunction('${book.name}','${book.author}','${book.type}','${countBooks}')">Edit</button>
+                        </td?
+                        <td><button class="btn btn-danger" id="edit" onclick="deletefunction('${countBooks}')">Delete</button>
+                        </td>
                     </tr>`;
     tableBody.innerHTML += uiString;
 }
@@ -93,6 +99,26 @@ function libraryFormSubmit(e) {
 
     e.preventDefault();
 }
+
+
+
+//edit function 
+function editfunction(pbookname, pauthorname, ptype, pbookid) {
+    document.getElementById('bookName').value=pbookname;
+    document.getElementById('author').value=pauthorname;
+    document.getElementById(ptype).checked=true;
+    document.getElementById(pbookid).style.display = "none";;
+   
+}
+
+//Delete function 
+function deletefunction(pbookid) {
+    document.getElementById(pbookid).style.display = "none";;
+   
+}
+
+
+
 
 // Todos"
 // 1. Store all the data to the localStorage

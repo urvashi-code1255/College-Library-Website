@@ -1,0 +1,18 @@
+.input-box{
+    border:none;
+    border-bottom: 1.5px solid rgba(168, 154, 154, 0.322);
+    border-radius:0px;
+    transition:none;
+    width: 100%;
+    padding-bottom: 2px;
+}
+.input-box:focus{
+    outline:none;
+    border-bottom: 1.5px solid yellowgreen;
+    /* zoom: 1.1; */
+    transform: scaleY(1.05);
+}
+.input-box{
+    transition: border 0.5s ease-out;
+    /* transition: transform 0.5s ease-out; */
+}
