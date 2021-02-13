@@ -22,6 +22,8 @@ Display.prototype.add = function (book) {
                         <td>${book.type}</td>
                         <td><button class="btn btn-success" id="edit" onclick="editfunction('${book.name}','${book.author}','${book.type}','${countBooks}')">Edit</button>
                         </td?
+                        <td><button class="btn btn-danger" id="edit" onclick="deletefunction('${countBooks}')">Delete</button>
+                        </td?
                     </tr>`;
     tableBody.innerHTML += uiString;
 }
@@ -106,9 +108,16 @@ function editfunction(pbookname, pauthorname, ptype, pbookid) {
     document.getElementById('author').value=pauthorname;
     document.getElementById(ptype).checked=true;
     document.getElementById(pbookid).style.display = "none";;
-   // console.log(x);
    
 }
+
+//Delete function 
+function deletefunction(pbookid) {
+    document.getElementById(pbookid).style.display = "none";;
+   
+}
+
+
 
 // Todos"
 // 1. Store all the data to the localStorage
