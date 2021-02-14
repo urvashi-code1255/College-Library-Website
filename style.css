@@ -72,7 +72,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f00;
+  background: #55acee;
   transition: 0.5s;
   z-index: 2;
 }
@@ -81,12 +81,8 @@ footer {
   top: 0;
 }
 
-.iconsul li:nth-child(1) a:before {
-  background: #3b5999;
-}
-
 .icons ul li:nth-child(2) a:before {
-  background: #55acee;
+  background: black;
 }
 /* CopyRights */
 .icons ul p {
