@@ -61,7 +61,7 @@ function libraryFormSubmit(e) {
   console.log("YOu have submitted library form");
   let name = document.getElementById("bookName").value;
   let author = document.getElementById("author").value;
-  let type = document.getElementById("type");
+  let type = document.getElementById("type").value;
  
 
   let book = new Book(name, author, type);
