@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Vibe Library</title>
+
+    
   </head>
 
   <body>
@@ -94,46 +96,59 @@
             />
           </div>
         </div>
+
+
+
         <fieldset class="form-group">
           <div class="row">
-            <legend class="col-form-label col-sm-2 pt-0">Type</legend>
+            <legend class="col-form-label col-sm-2 pt-0">Category</legend>
+
             <div class="col-sm-10">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="fiction"
-                  value="fiction"
-                  checked
-                />
-                <label class="form-check-label" for="fiction"> Fiction </label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="programming"
-                  value="programming"
-                />
-                <label class="form-check-label" for="programming">
-                  Computer Programming
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="cooking"
-                  value="cooking"
-                />
-                <label class="form-check-label" for="cooking"> Cooking </label>
-              </div>
+               
+                <div class="form-check">
+
+                  <select class="form-check-input" name="type" id="type">
+
+                    
+                    <option value="N/A">- - -Select Category- - -</option>
+                    <option value="arts">Arts & Music</option>
+                    <option value="biographies">Biographies</option>
+                    <option value="business">Business</option>
+                    <option value="comics">Comics</option>
+                    <option value="computer&tech">Computers & Tech</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="education&reference">Education & Reference</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="health&fitness">Health & Fitness</option>
+                    <option value="history">History</option>
+                    <option value="hobbies&craft">Hobbies & Crafts</option>
+                    <option value="home&garden">Home & Garden</option>
+                    <option value="horror">Horror</option>
+                    <option value="kids">Kids</option>
+                    <option value="literature&fiction">Literature & Fiction</option>
+                    <option value="medical">Medical</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="parenting">Parenting</option>
+                    <option value="religion">Religion</option>
+                    <option value="romance">Romance</option>
+                    <option value="scifi&fantasy">Sci-Fi & Fantasy</option>
+                    <option value="science&fantasy">Science & Maths</option>
+                    <option value="selfhelp">Self-Help</option>
+                    <option value="socialscience">Social Sciences</option>
+                    <option value="sports">Sports</option>
+                    <option value="travel">Travel</option>
+                    <option value="truecrime">True Crime</option>
+                   
+                
+                  </select>
+                </div>
+             
             </div>
           </div>
         </fieldset>
+
+
+
 
         <div class="form-group row">
           <div class="col-sm-10">
