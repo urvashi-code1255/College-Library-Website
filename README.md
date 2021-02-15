@@ -98,6 +98,13 @@ git push -u origin <your_branch_name>
 
 **15** Bingo :exclamation: You have made a PR to the College-Library-Website :boom: . Wait for your submission to be accepted and your PR to be merged.
 
+### This Project is a part of the following Open Source Program
+
+
+<img align="right" alt="GIF" src="https://github.com/Ayush7614/College-Library-Website/blob/main/cwoc.png" width="500" height="320" />
+
+
+
 ## Project Maintainer 😃
 
 <table>
@@ -107,7 +114,4 @@ git push -u origin <your_branch_name>
   </tr>
 </tbody></table>
 
-### This Project is a part of the following Open Source Program
-
-<img src ="https://github.com/Ayush7614/College-Library-Website/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>
 
