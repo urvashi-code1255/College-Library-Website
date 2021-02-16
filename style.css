@@ -96,9 +96,7 @@ footer {
   height: 45px;
   width: 80px;
 }
-.custom-nav{
-  background: linear-gradient(to left, #99cc00 70%, #669900 100%);
-}
+
 @media only screen and (max-width: 500px) {
   .icons ul p {
     position: absolute;
