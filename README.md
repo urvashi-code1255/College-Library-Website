@@ -100,7 +100,9 @@ git push -u origin <your_branch_name>
 
 ### This Project is a part of the following Open Source Program
 
-<img src="center" alt="PNG" src="https://github.com/Ayush7614/College-Library-Website/blob/main/cwoc.png" class="center" width="300" height="200" />
+<p align="center">
+<img align="center" alt="JPG" src="https://github.com/Ayush7614/College-Library-Website/blob/main/cwoc.png" class="center" width="300" height="200" />
+</p>
 
 ## Project Maintainer 😃
 
