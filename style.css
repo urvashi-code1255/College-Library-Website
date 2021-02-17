@@ -91,6 +91,12 @@ footer {
   top: 20px;
 }
 
+.logo-img{
+  margin-left: 40px;
+  height: 45px;
+  width: 80px;
+}
+
 @media only screen and (max-width: 500px) {
   .icons ul p {
     position: absolute;
