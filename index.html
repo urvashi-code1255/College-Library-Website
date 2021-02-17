@@ -25,10 +25,12 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Welcome to Vibe Library</title>
+    <title>Vibe Library</title>
+
+    
   </head>
 
-  <body>
+  <body style="background-image: url('https://img.freepik.com/free-vector/public-library-interior-stack-book-bookshelf-flat_7081-838.jpg?size=1300&ext=jpg');background-repeat: repeat; background-color: rgba(236, 236, 236, 0.842); background-blend-mode: lighten;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand ml-4" href="#">Vibe Library</a>
       <button
@@ -94,46 +96,59 @@
             />
           </div>
         </div>
+
+
+
         <fieldset class="form-group">
           <div class="row">
-            <legend class="col-form-label col-sm-2 pt-0">Type</legend>
+            <legend class="col-form-label col-sm-2 pt-0">Category</legend>
+
             <div class="col-sm-10">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="fiction"
-                  value="fiction"
-                  checked
-                />
-                <label class="form-check-label" for="fiction"> Fiction </label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="programming"
-                  value="programming"
-                />
-                <label class="form-check-label" for="programming">
-                  Computer Programming
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="type"
-                  id="cooking"
-                  value="cooking"
-                />
-                <label class="form-check-label" for="cooking"> Cooking </label>
-              </div>
+               
+                <div class="form-check">
+
+                  <select class="form-check-input" name="type" id="type">
+
+                    
+                    <option value="N/A">Select Category</option>
+                    <option value="Arts & Music">Arts & Music</option>
+                    <option value="Biographies">Biographies</option>
+                    <option value="Business">Business</option>
+                    <option value="Comics">Comics</option>
+                    <option value="Computer & Tech">Computers & Tech</option>
+                    <option value="Cooking">Cooking</option>
+                    <option value="Education & Reference">Education & Reference</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Health & Fitness">Health & Fitness</option>
+                    <option value="History">History</option>
+                    <option value="Hobbies & Crafts">Hobbies & Crafts</option>
+                    <option value="Home & Garden">Home & Garden</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Kids">Kids</option>
+                    <option value="Literature & Fiction">Literature & Fiction</option>
+                    <option value="Medical">Medical</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Parenting">Parenting</option>
+                    <option value="Religion">Religion</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Sci-Fi & Fantasy">Sci-Fi & Fantasy</option>
+                    <option value="Science & Maths">Science & Maths</option>
+                    <option value="Self-Help">Self-Help</option>
+                    <option value="Social Sciences">Social Sciences</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Travel">Travel</option>
+                    <option value="True Crime">True Crime</option>
+                   
+                
+                  </select>
+                </div>
+             
             </div>
           </div>
         </fieldset>
+
+
+
 
         <div class="form-group row">
           <div class="col-sm-10">
@@ -150,7 +165,7 @@
             <tr>
               <th scope="col">Name</th>
               <th scope="col">Author</th>
-              <th scope="col">Type</th>
+              <th scope="col">Category</th>
               <th scope="col"></th>
             </tr>
           </thead>

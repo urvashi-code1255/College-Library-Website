@@ -61,18 +61,8 @@ function libraryFormSubmit(e) {
   console.log("YOu have submitted library form");
   let name = document.getElementById("bookName").value;
   let author = document.getElementById("author").value;
-  let type;
-  let fiction = document.getElementById("fiction");
-  let programming = document.getElementById("programming");
-  let cooking = document.getElementById("cooking");
-
-  if (fiction.checked) {
-    type = fiction.value;
-  } else if (programming.checked) {
-    type = programming.value;
-  } else if (cooking.checked) {
-    type = cooking.value;
-  }
+  let type = document.getElementById("type").value;
+ 
 
   let book = new Book(name, author, type);
   console.log(book);
