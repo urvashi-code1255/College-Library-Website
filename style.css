@@ -16,20 +16,6 @@
     transition: border 0.5s ease-out;
     /* transition: transform 0.5s ease-out; */
 }
-/* 
-.btn {
-  
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
-} */
-
-
 
 .btn {
     width: 150px;
