@@ -1,21 +1,22 @@
-.input-box{
-    border:none;
-    border-bottom: 1.5px solid rgba(168, 154, 154, 0.322);
-    border-radius:0px;
-    transition:none;
-    width: 100%;
-    padding-bottom: 2px;
+.input-box {
+  border: none;
+  border-bottom: 1.5px solid rgba(168, 154, 154, 0.322);
+  border-radius: 0px;
+  transition: none;
+  width: 100%;
+  padding-bottom: 2px;
 }
-.input-box:focus{
-    outline:none;
-    border-bottom: 1.5px solid yellowgreen;
-    /* zoom: 1.1; */
-    transform: scaleY(1.05);
+.input-box:focus {
+  outline: none;
+  border-bottom: 1.5px solid yellowgreen;
+  /* zoom: 1.1; */
+  transform: scaleY(1.05);
 }
-.input-box{
-    transition: border 0.5s ease-out;
-    /* transition: transform 0.5s ease-out; */
+.input-box {
+  transition: border 0.5s ease-out;
+  /* transition: transform 0.5s ease-out; */
 }
+
 
 .btn {
     width: 150px;
@@ -85,4 +86,93 @@
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+.space {
+  margin-top: 10px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 9vh;
+  background-color: #343a40;
+  color: white;
+}
+/*  */
+.icons ul {
+  display: flex;
+  margin-top: 190px !important;
+}
+
+.icons ul li {
+  list-style: none;
+}
+
+.icons ul li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.icons ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.icons ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.icons ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #55acee;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.icons ul li a:hover:before {
+  top: 0;
+}
+
+.icons ul li:nth-child(2) a:before {
+  background: black;
+}
+/* CopyRights */
+.icons ul p {
+  position: absolute;
+  left: 40%;
+  top: 20px;
+}
+
+.logo-img{
+  margin-left: 40px;
+  height: 45px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  .icons ul p {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+  }
 }
