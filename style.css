@@ -168,6 +168,9 @@ footer {
   height: 45px;
   width: 80px;
 }
+.col-sm-10{
+  margin-top: 1rem;
+}
 
 @media only screen and (max-width: 500px) {
   .icons ul p {
