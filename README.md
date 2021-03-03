@@ -20,7 +20,7 @@ Do you want to keep a record of all the books with their Author names?
 
 So, Here you go!! Using this College Library Website you can keep a record of all your college Books and stuffs 🤩. Excited?
 
-<p align="center"><img src="poster.jpg" height="500" width="800"></p>
+<p align="center"><img src="./assets/images/poster.jpg" height="500" width="800"></p>
 
 # Contribution is fun! 🧡:
 
@@ -103,7 +103,7 @@ git push -u origin <your_branch_name>
 ### This Project is a part of the following Open Source Program
 
 <p align="center">
-<img align="center" alt="JPG" src="https://github.com/Ayush7614/College-Library-Website/blob/main/cwoc.png" class="center" width="300" height="200" />
+<img align="center" alt="JPG" src="./assets/images/cwoc.png" class="center" width="300" height="200" />
 </p>
 
 ## Project Maintainer 😃
