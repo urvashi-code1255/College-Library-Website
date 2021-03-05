@@ -103,7 +103,7 @@ git push -u origin <your_branch_name>
 ### This Project is a part of the following Open Source Program
 
 <p align="center">
-<img align="center" alt="JPG" src="./assets/images/cwoc.png" class="center" width="300" height="200" />
+[<img align="center" alt="JPG" src="./assets/images/cwoc.png" class="center" width="300" height="200" />](https://crosswoc.ieeedtu.in/)
 </p>
 
 ## Project Maintainer 😃
