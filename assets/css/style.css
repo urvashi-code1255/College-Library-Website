@@ -1,3 +1,11 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #1e6cc7 url('https://i2.wp.com/codemyui.com/wp-content/uploads/2015/11/pure-css-bookshelf-loading-animation.gif?fit=880%2C440&ssl=1') no-repeat center;
+  z-index: 999;
+}
+
 .input-box {
   border: none;
   border-bottom: 1.5px solid rgba(168, 154, 154, 0.322);
