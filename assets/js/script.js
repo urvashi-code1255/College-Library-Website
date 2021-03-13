@@ -153,6 +153,10 @@ function deletefunction(pbookid) {
   document.getElementById(pbookid).style.display = "none";
 }
 
+window.onload=function(){
+  document.getElementById('loading').style.display="none";
+  document.getElementById('body').style.display="block";
+}
 // Todos"
 // 1. Store all the data to the localStorage
 // 2. Give another column as an option to delete the book
