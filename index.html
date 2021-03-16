@@ -27,11 +27,15 @@
     <title>Vibe Library</title>
     
     <!-- Title bar icon -->
-    <link rel = "icon" href ="./assets/Favicons/3.png" "type "image/x-icon"> 
+    <link rel = "icon" href ="./assets/Favicons/3.png" type = "image/x-icon"> 
 
   </head>
   <body style="background-image: url('https://github.com/kanishkaa24/College-Library-Website/blob/main/assets/images/Background.png?raw=true'); background-color: rgba(236, 236, 236, 0.842); background-size: cover;
   background-repeat: no-repeat;">
+
+    <div id="topBtn" title="Go to Top">
+      <a href="#"><span class="fa fa-angle-up"></span></a>
+    </div>
 
     <!-- pre-loader -->
     <div id="loading"></div>
@@ -208,6 +212,27 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Go to Top  -->
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          if($(window).scrollTop() > 40){
+            $('#topBtn').css({
+              "opacity":"1", "pointer-events":"auto"
+            });
+          } else{
+            $('#topBtn').css({
+              "opacity":"0", "pointer-events":"none"
+            });
+          }
+        });
+
+        $("#topBtn").click(function(){
+          $('html ,body').animate({scrollTop : 0},400);
+        });
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
