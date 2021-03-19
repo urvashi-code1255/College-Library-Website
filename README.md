@@ -116,4 +116,158 @@ git push -u origin <your_branch_name>
   </tr>
 </tbody></table>
 
+## Clan of Contributors 😃
+Thanks goes to these wonderful people ✨✨:
 
+<table>
+ <tr>
+      <td align="center">
+         <a href="https://github.com/kmryashasvi">
+         <img src="https://avatars.githubusercontent.com/u/66861659?s=460&u=64fefa0d1dc0f089b0cdb61f10f3691ee24cd636&v=4" width="100px" alt=""/><br />
+         <sub><b>Yashasvi</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=kmryashasvi">
+         💻
+         </a>
+      </td>
+            <td align="center">
+         <a href="https://github.com/raman-thakur">
+         <img src="https://avatars.githubusercontent.com/u/62001608?s=460&u=b92677afd7f64460f5f49114ae91e3398d986399&v=4" width="100px" alt=""/><br />
+         <sub><b>Raman Thakur</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=raman-thakur">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/96RadhikaJadhav">
+         <img src="https://avatars.githubusercontent.com/u/56536997?s=460&u=ff226cf6f5d0048212e3e46a0aa1c0b2f923c324&v=4" width="100px" alt=""/><br />
+         <sub><b>Radhika Jadhav</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=96RadhikaJadhav">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/soumya-badkul">
+         <img src="https://avatars.githubusercontent.com/u/60295974?s=460&u=beb7ba16c8f4c4a0255e9dc7976dc899398f38ab&v=4" width="100px" alt=""/><br />
+         <sub><b>Soumya Badkul</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=soumya-badkul">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/kanishkaa24">
+         <img src="https://avatars.githubusercontent.com/u/71253790?s=460&u=418d11472607d86ceb1467967332923ca56e2c30&v=4" width="100px" alt=""/><br />
+         <sub><b>Kanishka Aggarwal</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=kanishkaa24">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/arbazalam01">
+         <img src="https://avatars.githubusercontent.com/u/29120203?s=60&v=4" width="100px" alt=""/><br />
+         <sub><b>Arbaz Alam</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=arbazalam01">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/pranabprohit">
+         <img src="https://avatars.githubusercontent.com/u/53513600?s=60&v=4" width="100px" alt=""/><br />
+         <sub><b>Pranab Prohit</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=pranabprohit">
+         💻
+         </a>
+      </td>
+   </tr>
+    <tr>
+      <td align="center">
+         <a href="https://github.com/anushka-2001">
+         <img src="https://avatars.githubusercontent.com/u/56110320?s=460&u=64feefa2b8a2a3c861ade7b2c8ed1fa4871e3bab&v=4" width="100px" alt=""/><br />
+         <sub><b>Anushka Bhagchandani</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=anushka-2001">
+         💻
+         </a>
+      </td>
+            <td align="center">
+         <a href="https://github.com/vedant-kakde">
+         <img src="https://avatars.githubusercontent.com/u/69970950?s=460&u=14f3faa90edddde78fe276d9848c57e8430a8ec3&v=4" width="100px" alt=""/><br />
+         <sub><b>Vedant Kakde</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=vedant-kakde">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/QAZIMAAZARSHAD">
+         <img src="https://avatars.githubusercontent.com/u/56196640?s=460&u=cb59679e628d09d8f216eb6d763369ffe7564e73&v=4" width="100px" alt=""/><br />
+         <sub><b>Qazi Maaz Arshad</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=QAZIMAAZARSHAD">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/kiruba-r11">
+         <img src="https://avatars.githubusercontent.com/u/76843281?s=460&u=e505d92cafc37670d23a8b51eb7d99777c46a84e&v=4" width="100px" alt=""/><br />
+         <sub><b>Kirubanand R</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=kiruba-r11">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/jayantjethi">
+         <img src="https://avatars.githubusercontent.com/u/67199696?s=460&v=4" width="100px" alt=""/><br />
+         <sub><b>Jayant Jethi</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=jayantjethi">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/Ayush7614">
+         <img src="https://avatars.githubusercontent.com/u/67006255?s=460&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px" alt=""/><br />
+         <sub><b>Ayush Kumar</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=Ayush7614">
+         💻
+         </a>
+      </td>
+      <td align="center">
+         <a href="https://github.com/muthuannamalai12">
+         <img src="https://avatars.githubusercontent.com/u/64524822?s=460&u=c1f8f317ca1eb1340f411b69b3b7c85446303ae5&v=4" width="100px" alt=""/><br />
+         <sub><b>Muthu Annamalai Venkatachalam</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=muthuannamalai12">
+         💻
+         </a>
+      </td>
+   </tr>
+    <tr>
+      <td align="center">
+         <a href="https://github.com/kanak22">
+         <img src="https://avatars.githubusercontent.com/u/62026983?s=460&u=7ba52cdae046a26842fdf8394ac313ea6092a8c3&v=4" width="100px" alt=""/><br />
+         <sub><b>Kanak</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=kanak22">
+         💻
+         </a>
+      </td>
+            <td align="center">
+         <a href="https://github.com/Thiyageshkanna">
+         <img src="https://avatars.githubusercontent.com/u/62716265?s=460&u=5f1b85bf2be9b394bb8bef3588c1c2554bf8bac1&v=4" width="100px" alt=""/><br />
+         <sub><b>Thiyagesh Kanna</b></sub>
+         </a><br />
+         <a href="https://github.com/urvashi-code1255/College-Library-Website/commits?author=Thiyageshkanna">
+         💻
+         </a>
+      </td>
+   </tr>
+  </table>
