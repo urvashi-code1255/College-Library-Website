@@ -28,8 +28,6 @@ html{
   transition: border 0.5s ease-out;
   /* transition: transform 0.5s ease-out; */
 }
-
-
 .btn {
     width: 150px;
     height: 50px;
@@ -115,14 +113,98 @@ html{
 footer {
   position: relative;
   width: 100%;
-  height: 9vh;
-  background-color: #343a40;
+  height: 190px;
+  background-color:grey;
   color: white;
+  padding-bottom: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  font-size: "Poppins";
+}
+.footer{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 auto;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+
+
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+  
+}
+.footer-heading h2{
+  margin-bottom: 1rem;
+}
+.footer-heading a{
+  margin-bottom: 0.1rem;
+  color: #000;
+}
+.footer-heading a:hover{
+  color: #00ffd5;
+  transition: 0.3s ease-out;
+}
+.box-area{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -os-flex;
+  display:-ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  list-style: none;
+}
+.box li{
+  cursor: pointer;
+  transition: color 0.2s ease;
+  color: #696969;
+  display: inline-block;
+  margin: 0 10px;
+  padding:2px;
+  border:2px solid rgb(255,255,255,0.3);
+  box-shadow: 4px 4px 6px 0 rgb(0,0,0,0.1s),
+              -4px -4px 6px #fff;
+  
+
+}
+#footer-email{
+  width: 230px;
+  border-radius:6px;
+  box-shadow: -3px -3px 3px rgba(255,255,255,),
+  3px 3px 3px rgba(0,0,0,0.1);
+  
+}
+#footer-email-btn{
+  border: none;
+  outline: invert;
+  background-color: #fff;
+  border-radius: 5px;
+
+}
+#footer-email-btn:hover{
+  cursor:pointer;
+  background-color: skyblue;
+  transition: all 0.4s ease-out;
+
+}
+.read{
+  height: 25vh;
 }
 /*  */
 .icons ul {
   display: flex;
-  margin-top: 190px !important;
+  margin-top: 1px !important;
+  padding-left: 0px;
+  padding-top: 0.2px;
+  
 }
 
 .icons ul li {
@@ -143,7 +225,7 @@ footer {
   overflow: hidden;
   border: 3px solid #fff;
   z-index: 1;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .icons ul li a .icon {
